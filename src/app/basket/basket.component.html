@@ -1,0 +1,28 @@
+<div class="container">
+  {{diagnostic}}
+<form #itemForm="ngForm">
+  <label for="id" class="label">ID</label>
+  <input id="id" type="text" name="id" class="textarea" required [(ngModel)]="model.id">
+
+  <br>
+
+  <label for="name" class="label">NAME</label>
+  <input id="name" type="text" name="name" class="textarea" required [(ngModel)]="model.name">
+
+  <br>
+
+  <label for="description" class="label">DESCRIPTION</label>
+  <input id="description" type="text" name="description" class="textarea" required [(ngModel)]="model.description">
+
+  <br>
+
+  <label for="category" class="label">CATEGORY</label>
+  <input id="category" type="text" name="category" class="textarea" required [(ngModel)]="model.category">
+
+  <br>
+
+  <input type="submit" value="ADD">
+
+  <input type="reset" value="CLEAR">
+</form>
+</div>
