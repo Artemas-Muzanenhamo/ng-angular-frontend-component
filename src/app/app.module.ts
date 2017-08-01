@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import {BasketComponent} from '../app/basket/basket.component';
+import {MovieComponent} from './dashboard/movie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasketComponent
+    MovieComponent
   ],
   imports: [
     BrowserModule,
@@ -17,7 +17,7 @@ import {BasketComponent} from '../app/basket/basket.component';
   providers: [],
   bootstrap: [
     AppComponent,
-    BasketComponent
+    MovieComponent
   ]
 })
 export class AppModule { }
